@@ -15,9 +15,11 @@ public class Collatz {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         System.out.print("请输入一个整数");
-        int n = input.nextInt();
+        int n = input.nextInt();*/
+        int n = 5;
+        System.out.print(n + " ");
         while (n != 1) {
             n = nextNumber(n);
             System.out.print(n + " ");
